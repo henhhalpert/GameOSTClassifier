@@ -15,7 +15,7 @@ Each track was then cut into 3 second segments, and mfccs were extracted using L
 
 The model was overfitting, with 98% accuracy for training set, but ~ 60% for validation. So needed to fix the overfitting using Dropout() and Regularization l2.
 
-The algorithm performs just OK, with roughly 68% accuracy. 
+The algorithm performs just OK, with roughly 60% accuracy. 
 
 At the end of the code I plot the loss and error to see if the gap was minimized, And finally performed a confusion matrix
 and calculated the accuracy myself. 
